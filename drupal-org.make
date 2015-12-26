@@ -1,15 +1,14 @@
 api = 2
 core = 7.x
 
-; The Nudistrobot Foundation -- specifies revision (commit) for each module
+; The Nudistrobot Foundation -- specifies release version or revision (commit SHA) for each module
 
 ; The WYSIWYG Starter module
 projects[wysiwyg_starter][version] = "1.x-dev"
 projects[wysiwyg_starter][subdir] = contrib
 projects[wysiwyg_starter][download][type] = "git"
-; projects[wysiwyg_starter][download][revision] = 8d32d738615f5d6b85b91146cb0032085e5b1789
-projects[wysiwyg_starter][download][url] = "http://git.drupal.org/sandbox/sheldon/2640808.git"
-; projects[wysiwyg_starter][download][url] = "sheldon@git.drupal.org:sandbox/sheldon/2640808.git"
+projects[wysiwyg_starter][download][revision] = dce1f266539124b11a2f468208eada93930fa00d
+projects[wysiwyg_starter][download][url] = "http://git.drupal.org/project/wysiwyg_starter.git"
 projects[wysiwyg_starter][download][branch] = "7.x-1.x"
 projects[wysiwyg_starter][type] = "module"
 
