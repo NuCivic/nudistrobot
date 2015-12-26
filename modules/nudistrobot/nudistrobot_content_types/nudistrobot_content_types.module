@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Nudistrobot content types feature.
+ */
+
+include_once 'nudistrobot_content_types.features.inc';

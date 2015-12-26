@@ -32,4 +32,4 @@ dependencies[] = strongarm
 dependencies[] = wysiwyg_starter
 
 ; Nudistrobot Foundation
-
+dependencies[] = nudistrobot_content_types
