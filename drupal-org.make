@@ -14,6 +14,10 @@ projects[imce_mkdir] = 1.0
 projects[imce_wysiwyg] = 1.0
 projects[wysiwyg_mediaembed] = 1.0
 
+projects[module_filter] = 2.0
+projects[views] = 3.13
+projects[features] = 2.7
+
 ; Assume latest version for WYSIWYG module itself
 projects[wysiwyg][version] = "2.x-dev"
 projects[wysiwyg][download][type] = "git"
@@ -22,3 +26,10 @@ projects[wysiwyg][download][url] = "http://git.drupal.org/project/wysiwyg.git"
 projects[wysiwyg][download][branch] = "7.x-2.x"
 projects[wysiwyg][type] = "module"
 ; projects[wysiwyg][patch][] = "https://www.drupal.org/files/issues/wysiwyg-html5-required-1338956-16.patch"
+
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.5.6/ckeditor_4.5.6_standard.zip"
+libraries[ckeditor][destination] = libraries
+libraries[codemirror][download][type] = "get"
+libraries[codemirror][download][url] = "http://download.ckeditor.com/codemirror/releases/codemirror_1.13.zip"
+libraries[codemirror][destination] = libraries/ckeditor_plugins
