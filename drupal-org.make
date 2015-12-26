@@ -6,11 +6,6 @@ core = 7.x
 ; The WYSIWYG Starter module
 projects[wysiwyg_starter][version] = "1.x-dev"
 projects[wysiwyg_starter][subdir] = contrib
-projects[wysiwyg_starter][download][type] = "git"
-projects[wysiwyg_starter][download][revision] = dce1f266539124b11a2f468208eada93930fa00d
-projects[wysiwyg_starter][download][url] = "http://git.drupal.org/project/wysiwyg_starter.git"
-projects[wysiwyg_starter][download][branch] = "7.x-1.x"
-projects[wysiwyg_starter][type] = "module"
 
 ; Other common modules
 
