@@ -21,8 +21,11 @@ dependencies[] = file
 dependencies[] = dblog
 dependencies[] = update
 
-; Nudistrobot Foundation
+; Contrib modules
+dependencies[] = module_filter
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = features
 
-; Panopoly Recommended - Admin & UI
-; dependencies[] = module_filter
+; Nudistrobot Foundation
 
