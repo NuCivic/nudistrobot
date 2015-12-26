@@ -27,6 +27,9 @@ dependencies[] = module_filter
 dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = features
+dependencies[] = admin_menu
+dependencies[] = strongarm
+dependencies[] = wysiwyg_starter
 
 ; Nudistrobot Foundation
 
