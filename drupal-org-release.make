@@ -15,6 +15,7 @@ projects[imce_wysiwyg] = 1.0
 projects[wysiwyg_mediaembed] = 1.0
 
 ; Some other common modules
+projects[libraries] = 2.2
 projects[module_filter] = 2.0
 projects[ctools] = 1.9
 projects[views] = 3.13

@@ -22,6 +22,7 @@ dependencies[] = dblog
 dependencies[] = update
 
 ; Contrib modules
+dependencies[] = libraries
 dependencies[] = module_filter
 dependencies[] = views
 dependencies[] = views_ui
